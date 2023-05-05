@@ -1,0 +1,62 @@
+.container {
+  margin: 10px 80px;
+}
+
+.inputsContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input label {
+  font-weight: 400;
+}
+
+.input input,
+select {
+  padding: 5px 10px;
+  min-width: 200px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cancel {
+  background: transparent;
+  border-color: red;
+  color: red;
+}
+
+.submit {
+  background-color: green;
+  color: #fff;
+  border: none;
+}
+
+.input p {
+  color: red;
+}
+
+.input div {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+}
